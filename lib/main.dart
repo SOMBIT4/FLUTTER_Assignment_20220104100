@@ -1,5 +1,6 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:assignment_20220104100/description_page.dart';
 import 'package:assignment_20220104100/shop_page.dart';
 import 'package:flutter/material.dart';
 
@@ -14,7 +15,12 @@ class MyApp extends StatelessWidget {
   @override
   Widget build(BuildContext context) {
     return MaterialApp(
+      debugShowCheckedModeBanner: false,
       home: const ShopPage(),
+      routes: {
+        '/shop_page': (context) => const ShopPage(),
+        '/description_page': (context) => const des_De(),
+      },
     );
   }
 }
