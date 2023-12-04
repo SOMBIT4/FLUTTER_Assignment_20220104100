@@ -1,6 +1,8 @@
 // ignore_for_file: prefer_const_constructors
 
+import 'package:assignment_20220104100/competition.dart';
 import 'package:assignment_20220104100/description_page.dart';
+import 'package:assignment_20220104100/payment_page.dart';
 import 'package:assignment_20220104100/shop_page.dart';
 import 'package:flutter/material.dart';
 
@@ -20,6 +22,8 @@ class MyApp extends StatelessWidget {
       routes: {
         '/shop_page': (context) => const ShopPage(),
         '/description_page': (context) => const des_De(),
+        '/payment_page': (context) => const pay(),
+        '/competition': (context) => const confirm(),
       },
     );
   }
