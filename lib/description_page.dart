@@ -12,7 +12,7 @@ class des_De extends StatelessWidget {
         toolbarHeight: 60,
         foregroundColor: const Color.fromARGB(255, 228, 13, 13),
         title: const Text(
-          'Description',
+          'Description:',
           style: TextStyle(
             fontWeight: FontWeight.bold,
             fontSize: 30,
